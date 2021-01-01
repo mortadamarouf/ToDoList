@@ -178,10 +178,10 @@
         android:textColorHint="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintHorizontal_bias="0.627"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="Autofill,HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="60dp" />
+        tools:layout_editor_absoluteY="83dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
@@ -269,13 +269,11 @@
         tools:layout_editor_absoluteY="220dp" />
 
     <SearchView
-        android:layout_width="40dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_width="39dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="50dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="93dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

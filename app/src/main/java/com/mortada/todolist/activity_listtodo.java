@@ -1,4 +1,4 @@
-package com.example.application1;
+package com.mortada.todolist;
 
 import androidx.appcompat.app.AppCompatActivity;
 

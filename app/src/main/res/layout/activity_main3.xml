@@ -10,27 +10,24 @@
     tools:context=".listtodo"
     >
 
-
     <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="359dp"
-        android:layout_height="59dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
+        android:layout_width="369dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="20dp"
         android:background="@drawable/listbtncolor"
         android:orientation="horizontal"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="452dp">
+        tools:layout_editor_absoluteY="459dp">
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioButton5"
             android:layout_width="349dp"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Meeting with client" />
-
+            android:text="@string/meeting_with_client"
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,12 +44,12 @@
         tools:layout_editor_absoluteY="303dp">
 
         <RadioButton
-            android:id="@+id/radioButton5"
-            android:layout_width="403dp"
+            android:id="@+id/radioButton1"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Meeting with client"
-
+            android:text="@string/meeting_with_client"
+            android:textSize="14sp"
             />
 
     </LinearLayout>
@@ -74,10 +71,11 @@
 
         <RadioButton
             android:id="@+id/radioButton2"
-            android:layout_width="381dp"
+            android:layout_width="55dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Lunch with Julie" />
+            android:text="@string/lunch_with_julie"
+            android:textSize="14sp" />
     </LinearLayout>
 
     <EditText
@@ -85,7 +83,6 @@
         android:layout_width="363dp"
         android:layout_height="51dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
         android:background="@drawable/fieldtextcolor"
         android:ems="10"
         android:fontFamily="@font/montserrat"
@@ -158,28 +155,26 @@
         app:srcCompat="@drawable/mmm"
         tools:ignore="HardcodedText" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="47dp"
-        android:layout_height="17dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:text=" Delete "
-        android:textSize="17sp"
-        android:textColor="#B2B2B2"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="150dp"
-        tools:ignore="MissingConstraints" />
-
     <SearchView
-        android:layout_width="34dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_width="27dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/delete"
+        android:textColor="#B2B2B2"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="148dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
